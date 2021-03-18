@@ -7,6 +7,9 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Ping coming soon page</title>
 
@@ -24,15 +27,32 @@
 </head>
 
 <body>
+  <section id="wrapper">
+    <div class="ping__logo">
+      <img src="/images/logo.svg" alt="logo">
+    </div>
+    <div class="main">
+      <h1 class="main__title"> We are launching soon!</h1>
+      <p class="main__text">Subscribe and get notified</p>
+    </div>
 
-  We are launching soon!
+    <div class="notify__input">
+      <input type="email" name="email" class="email">
+      <button class="notify__btn">Notify Me</button>
+    </div>
+    <div class="main__img">
+      <img src="/images/illustration-dashboard.png" alt="dashboard image">
+    </div>
+    <div class="social__icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
 
-  Subscribe and get notified
 
-  Notify Me
 
-  &copy; Copyright Ping. All rights reserved.
-
+    &copy; Copyright Ping. All rights reserved.
+  </section>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

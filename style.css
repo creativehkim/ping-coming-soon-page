@@ -105,12 +105,14 @@ p {
 
 .social__icons {
   margin: 2rem auto;
+  display: flex;
+  justify-content: center;
 }
 
-.social__icons .icon {
+.social__icons a {
   width: 40px;
   height: 40px;
-  text-align: center;
+  line-height: 35px;
   background-color: transparent;
   cursor: pointer;
   border: 1px solid var(--clr-secondary-pale-blue);
@@ -118,15 +120,15 @@ p {
   margin: 0 5px;
 }
 
-.social__icons .icon i {
+.social__icons i {
   font-size: 1rem;
   color: var(--clr-primary-blue);
 }
 
-.social__icons .icon:hover {
+.social__icons a:hover {
   background-color: var(--clr-primary-blue);
 }
-.social__icons .icon:hover i {
+.social__icons a:hover i {
   color: white;
   background-color: var(--clr-primary-blue);
 }
